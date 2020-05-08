@@ -9,7 +9,7 @@
 #include<string>
 using namespace std;
 #include"class.h"
-
+float Circle::PI=3.142;
 int main(void)
 {
 	string std_name;
@@ -22,6 +22,9 @@ int main(void)
 	getline(cin,std_name);
 	Student s(std_id,std_name);
 	s.display();
+	Circle c;
+	c.setdata();
+	c.displayarea();
 	return 1;
 
 

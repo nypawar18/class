@@ -13,6 +13,9 @@ private:
 	int id;
 	string name;
 public:
+	Student(){
+		cout<<"WELCOME........"<<endl;
+	}
 	Student(int id,string name){
 		this->id=id;
 		this->name=name;
@@ -23,8 +26,12 @@ public:
 	}
 	~Student(){
 		cout<<"Name: "<<name<<endl;
-		cout<<"ID: "<<id;
+		cout<<"ID: "<<id<<endl;
+		cout<<"Goodbye"<<endl;
 	}
+
+
+
 };
 
 
